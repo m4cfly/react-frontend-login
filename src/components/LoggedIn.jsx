@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react"
 import facade from "../apiFacade"
 
 //local URL
-//const URL = "http://localhost:7070/api"
-const URL = "https://api.pizzas.bytecode.dk/api"
+const URL = "http://localhost:7070/api"
 
 
 function LoggedIn() {

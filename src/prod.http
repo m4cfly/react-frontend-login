@@ -10,8 +10,8 @@ Content-Type: application/json
 POST https://api.pizzas.bytecode.dk/api/pizza-orders/populate
 
 
+###
 POST http://localhost:7070/api/auth/login
-Content-Type: application/json
 
 {
   "username": "user",
