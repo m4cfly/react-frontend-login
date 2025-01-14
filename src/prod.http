@@ -1,0 +1,52 @@
+POST https://api.pizzas.bytecode.dk/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "nick",
+  "password": "1234"
+}
+
+### Populate pizzas
+POST https://api.pizzas.bytecode.dk/api/pizza-orders/populate
+
+
+POST http://localhost:7070/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "test123"
+}
+
+### Authenticate requests
+GET https://api.pizzas.bytecode.dk/api/auth/test/
+
+
+### Get all pizzas
+GET https://api.pizzas.bytecode.dk/api/pizza-orders/
+
+###
+POST https://api.pizzas.bytecode.dk/api/pizza-orders
+Content-Type: application/json
+
+{
+  "pizzaName": "Margherita",
+  "quantity": 2,
+  "price": 15.99,
+  "done": false,
+  "user": {
+    "username": "usertest",
+    "password": null,
+    "roles": ["USER"]
+  }
+}
+
+
+
+### Get a single pizza
+GET https://api.pizzas.bytecode.dk/api/pizza-orders/1
+Content-Type: application/json
+
+{
+  "id": 1
+}
