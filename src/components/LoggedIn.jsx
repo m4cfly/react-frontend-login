@@ -24,7 +24,7 @@ function LoggedIn() {
         <h2>Data Received from Pizza API Server</h2>
         {dataFromServer ? (
                 <>
-                    <h1>Hello </h1>
+                    <h1>Hello {dataFromServer[0].user.username} </h1>
                     <h2>Your Order Number is # {dataFromServer[0].id}</h2>
                     <h3>You ordered = {dataFromServer[0].quantity}  x  {dataFromServer[0].pizzaName}</h3>
                     <p> </p>
