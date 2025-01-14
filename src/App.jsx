@@ -17,6 +17,7 @@ function App() {
         (<div>
           <LoggedIn />
           <button onClick={logout}>Logout</button>
+          
         </div>)}
     </div>
   )
