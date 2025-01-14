@@ -29,9 +29,8 @@ function LoggedIn() {
                     <h3>You ordered = {dataFromServer[0].quantity}  x  {dataFromServer[0].pizzaName}</h3>
                     <p> </p>
                     <h2>Total Price = {dataFromServer[0].price}</h2>
-
-
-
+                    <h3>Order Status = {dataFromServer[0].done}</h3>
+                    <h3>Username = {dataFromServer[0].user.username}</h3>
 
                     {/* Add more fields as needed */}
                 </>

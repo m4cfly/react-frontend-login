@@ -24,7 +24,8 @@ GET https://api.pizzas.bytecode.dk/api/auth/test/
 
 
 ### Get all pizzas
-GET https://api.pizzas.bytecode.dk/api/pizza-orders
+GET https://api.pizzas.bytecode.dk/api/pizza-orders/
+Content-Type: application/json
 
 
 ### Get a single pizza
